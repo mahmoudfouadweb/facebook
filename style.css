@@ -1,3 +1,18 @@
+/* 
+
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+
+text--color: #212529
+light--color: #495057
+facebook blue: #1877F2;
+
+*/
+
 * {
   padding: 0;
   margin: 0;
@@ -6,11 +21,37 @@
 
 body {
   color: #444;
-  font-family: 'helvetica', sans-serif;
+  font-family: HelveticaNeueW01-55Roma, HelveticaNeueW02-55Roma,
+    HelveticaNeueW10-55Roma, sans-serif;
   font-size: 24px;
 }
 
 .container {
   width: 1200px;
   display: flex;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #1877f2;
+  letter-spacing: -2.5px;
+}
+
+.summery {
+}
+
+.email {
+}
+
+.password {
+}
+
+.btn-login {
+}
+
+.forget-password {
+}
+
+.btn-create {
 }
