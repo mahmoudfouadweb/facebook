@@ -20,7 +20,8 @@ facebook blue: #1877F2;
 }
 
 body {
-  color: #444;
+  background-color: #f0f2f5;
+  color: #212529;
   font-family: HelveticaNeueW01-55Roma, HelveticaNeueW02-55Roma,
     HelveticaNeueW10-55Roma, sans-serif;
   font-size: 24px;
@@ -29,6 +30,19 @@ body {
 .container {
   width: 1200px;
   display: flex;
+  margin: 150px auto;
+}
+
+.sub-container {
+  display: flex;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 h1 {
@@ -54,4 +68,8 @@ h1 {
 }
 
 .btn-create {
+}
+
+footer {
+  background-color: #fff;
 }
