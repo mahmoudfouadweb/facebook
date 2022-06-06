@@ -10,6 +10,7 @@ FONT SIZE SYSTEM (px)
 text--color: #212529
 light--color: #495057
 facebook blue: #1877F2;
+btn color: ##42b72a
 
 */
 
@@ -42,7 +43,7 @@ body {
   width: 50%;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 10px;
   padding-left: 30px;
 }
 
@@ -62,6 +63,7 @@ body {
   gap: 14px;
   padding: 10px;
   padding-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 h1 {
@@ -72,7 +74,7 @@ h1 {
 }
 
 .summery {
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 400;
 }
 
@@ -86,34 +88,55 @@ h1 {
 .input::placeholder {
   font-size: 17px;
   font-weight: 400;
-  padding-left: 12px;
+  padding-left: 16px;
   color: #868e96;
   opacity: 1;
 }
 
-.email {
+/* .email {
 }
 
 .password {
-}
+} */
 
 .btn-login {
   width: 330px;
-  height: 32px;
+  height: 52px;
   background-color: #1877f2;
   color: #fff;
   font-size: 20px;
+  font-weight: bold;
   padding: 0 16px;
   border: none;
   border-radius: 6px;
 }
 
 .forget-password {
+  color: #1877f2;
+  font-size: 14px;
+  width: 300px;
+  text-align: center;
+  border-bottom: 1px solid #ced4da;
+  padding-bottom: 24px;
 }
 
 .btn-create {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #42b72a;
+  border: none;
+  padding: 14px 20px;
+  border-radius: 8px;
 }
 
+.main-form p {
+  font-size: 15px;
+}
+
+p span {
+  font-weight: bold;
+}
 footer {
   background-color: #fff;
   width: 95%;
